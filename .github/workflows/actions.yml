@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: Telity/TuristGuide@master
+        uses: Telity/TuristGuide@v1
       - name: Last Files
         run: |
           pwd 
